@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function getExt(filename) {
+            let ext = filename.split(".");
+            if (ext.length > 1) {
+                return ext = "Extension of this file is " + ext.pop();
+            }
+            else {
+                return "dont found extension";
+            }
+        }
+        let filename = "abc.html";
+
+        console.log(getExt(filename));
+    </script>
+</body>
+
+</html>

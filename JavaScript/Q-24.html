@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = 10;
+        let first = 0;
+        let scecond = 1;
+        let next;
+        console.log(first);
+        console.log(scecond);
+        for (let i = 2; i < n; i++) {
+            next = first + scecond;
+            console.log(next);
+            first = scecond;
+            scecond = next;
+        }
+
+    </script>
+</body>
+
+</html>

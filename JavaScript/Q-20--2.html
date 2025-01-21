@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let letter = "r";
+        switch (letter) {
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+                console.log(`${letter} is vowel`)
+                break;
+
+            default:
+                if (typeof (letter) == "number") {
+                    console.log("its not valid letter")
+                }
+                else {
+                    console.log(`${letter} is consonant`)
+                }
+                break;
+        }
+    </script>
+</body>
+
+</html>
